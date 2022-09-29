@@ -2,8 +2,8 @@
 #include <MQUnifiedsensor.h>
 
 
-const char* ssid = "CLARO1_195176";
-const char* password = "143ugYJavM";
+const char* ssid = "##############";
+const char* password = "##########";
 
 #define placa "ESP-32"
 #define Voltage_Resolution 3.3
