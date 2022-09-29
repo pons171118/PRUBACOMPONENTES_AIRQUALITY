@@ -2,16 +2,15 @@
 #include <MQUnifiedsensor.h>
 
 
-const char* ssid = "CLARO1_195176";
-const char* password = "143ugYJavM";
+const char* ssid = "##########";
+const char* password = "######";
 
 #define placa "ESP-32"
 #define Voltage_Resolution 5
 #define pin 34
 #define type "MQ-131"
 #define ADC_Bit_Resolution 2
-#define RatioMQ131CleanAir 15
-double CO2 = (0);  
+#define RatioMQ131CleanAir 15  
 MQUnifiedsensor MQ131(placa, Voltage_Resolution, ADC_Bit_Resolution, pin, type);
 
 void setup() 
